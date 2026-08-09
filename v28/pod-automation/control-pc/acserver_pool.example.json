@@ -1,0 +1,45 @@
+{
+  "acserver_exe": "C:\\acServer\\acServer.exe",
+  "instances": [
+    {
+      "id": 1,
+      "config_dir": "C:\\acServer\\instance1\\cfg",
+      "server_ip": "192.168.1.50",
+      "port": 9601,
+      "http_port": 8081
+    },
+    {
+      "id": 2,
+      "config_dir": "C:\\acServer\\instance2\\cfg",
+      "server_ip": "192.168.1.50",
+      "port": 9602,
+      "http_port": 8082
+    },
+    {
+      "id": 3,
+      "config_dir": "C:\\acServer\\instance3\\cfg",
+      "server_ip": "192.168.1.50",
+      "port": 9603,
+      "http_port": 8083
+    },
+    {
+      "id": 4,
+      "config_dir": "C:\\acServer\\instance4\\cfg",
+      "server_ip": "192.168.1.50",
+      "port": 9604,
+      "http_port": 8084
+    }
+  ],
+  "watched_servers": [
+    {
+      "label": "Test Hotlap",
+      "server_ip": "192.168.1.50",
+      "http_port": 8085
+    },
+    {
+      "label": "Server 8",
+      "server_ip": "192.168.1.50",
+      "http_port": 8086
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+generated_practice.ini
+ref_unix.ini
+.DS_Store
+Thumbs.db
+phase0/click_before.png
+phase0/click_after.png
+common/click_before.png
+common/click_after.png
+phase1/packs.json
+phase1/mp_config.json
+control-pc/acserver_pool.json
+# Guard against a real Windows path literal being written on Linux
+# (backslashes/colons are legal filename chars on Linux but not on
+# Windows, so this becomes an unzip-able "invalid path" there).
+C:\\*

@@ -1,0 +1,5 @@
+{
+  "pod_id": "pod1",
+  "control_pc_url": "http://192.168.1.50:8090",
+  "join_method": "content_manager_direct"
+}

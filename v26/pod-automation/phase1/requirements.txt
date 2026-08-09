@@ -1,8 +1,0 @@
-Flask
-
-# Only needed for the "drive_click" auto-click feature in packs.json
-# (see README.md). "backend": "ahk" instead needs AutoHotkey v2
-# installed separately (https://www.autohotkey.com) -- not a pip
-# package.
-pyautogui
-opencv-python-headless

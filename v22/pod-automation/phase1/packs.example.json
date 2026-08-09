@@ -1,0 +1,42 @@
+{
+  "ac_install_dir": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\assettocorsa",
+  "acs_exe": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\assettocorsa\\acs.exe",
+  "packs": {
+    "gt3_favorites": {
+      "label": "GT3 Favorites",
+      "cars": [
+        "ks_nissan_gtr_gt3",
+        "ks_ferrari_488_gt3",
+        "ks_mclaren_650_gt3"
+      ],
+      "tracks": [
+        "ks_red_bull_ring",
+        "ks_laguna_seca",
+        "ks_nurburgring"
+      ]
+    },
+    "road_cars": {
+      "label": "Road Cars",
+      "cars": [
+        "ks_mazda_mx5_cup",
+        "abarth500"
+      ],
+      "tracks": [
+        "ks_laguna_seca",
+        "magione"
+      ]
+    }
+  },
+  "drive_click": {
+    "enabled": false,
+    "image": "drive_icon.png",
+    "xy": "960,540",
+    "backend": "pyautogui",
+    "ahk_exe": "C:\\Program Files\\AutoHotkey\\v2\\AutoHotkey64.exe",
+    "window_title": "assetto",
+    "delay_seconds": 5,
+    "timeout_seconds": 25,
+    "hold_seconds": 0.12,
+    "click_count": 1
+  }
+}

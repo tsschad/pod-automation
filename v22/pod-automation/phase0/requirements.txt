@@ -1,0 +1,5 @@
+# Only needed for the --click-image / --click-xy auto-click fallback in
+# phase0_test.py's `direct` command (drive_click.py). Everything else in
+# this folder is Python standard library.
+pyautogui
+opencv-python-headless
